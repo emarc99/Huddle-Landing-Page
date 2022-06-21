@@ -6,6 +6,8 @@
 
 body {
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 .main {
     background-image: url('images/bg-hero-desktop.svg');
@@ -52,6 +54,9 @@ body {
 }
 .intro-heading {
     margin-bottom:  33px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
 }
 .intro-text {
     margin-bottom:  33px;
@@ -82,6 +87,7 @@ body {
     margin: 70px 0;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 200px;
 }
 .card-1, .card-2, .card-3 {
     display: flex;
@@ -104,29 +110,39 @@ body {
 }
 .card-heading {
     margin-bottom: 33px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
 }
 .floater-card {
+    position: absolute;
+    bottom: 720px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px 70px;
+    box-shadow: 1px 2px 3px 1px hsl(208, 11%, 55%);
 }
 .float-head {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
 }
 .float-button {
     background-color: hsl(322, 100%, 66%);
     box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
-    border-radius: 16px;
+    border-radius: 29px;
     text-align: center;
-    width: 40%;
-    margin-bottom: 20px;
+    width: 80%;
 }
 .float-button button {
     background-color: transparent;
     border: none;
     color: white;
-    height: 40px;
+    height: 60px;
     cursor: pointer;
     width: 100%;
 }
@@ -134,9 +150,12 @@ footer {
     background-color: hsl(192, 100%, 9%);
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    position: relative;
     
     
 }
@@ -144,19 +163,36 @@ footer {
     margin: 26px;
 }
 .footer-1 p {
-    margin: 8px 0;
+    margin: 12px 0;
 }
-.footer-1, .footer-2, .footer-3, .footer-4 {
-    width: 25%;
+.footer-1 {
+    width: 40%;
+}
+.footer-4 {
+    width: 30%;
+    padding: 50px;
 }
 footer a {
     text-decoration: none;
+    color: white;
 }
 .footer-2, .footer-3 {
     display: flex;
     flex-direction: column;
+    width: 20%;
+    
+}
+.footer-2 {
+    margin-left: 70px;
 }
 .footer-4 p {
-    margin-top: 270px;
     margin-bottom: 50px;
+}
+.footer-4 .social {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.footer-4 .ionicon {
+    fill: azure;
+    width: 25px;
 }
