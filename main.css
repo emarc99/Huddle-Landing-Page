@@ -7,3 +7,156 @@
 body {
     font-size: 18px;
 }
+.main {
+    background-image: url('images/bg-hero-desktop.svg');
+    background-color: hsl(193, 100%, 96%);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    height: 100vh;
+
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.header-button {
+    background-color: white;
+    box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
+    border-radius: 16px;
+    text-align: center;
+}
+.header-button button {
+    background-color: transparent;
+    border: none;
+    color: hsl(192, 100%, 9%);
+    font-weight: 500;
+    height: 40px;
+    padding: 11px 35px;
+    cursor: pointer;
+}
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.intro-content {
+    width: 50%;
+    margin-right: 30px;
+}
+.intro-heading {
+    margin-bottom:  33px;
+}
+.intro-text {
+    margin-bottom:  33px;
+}
+.intro-button {
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
+    border-radius: 16px;
+    text-align: center;
+    width: 36%;
+}
+.intro-button button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+    width: 100%;
+}
+.mockups {
+    width: 50%;
+    margin-left: 30px;
+}
+.mockups img {
+    max-width: 100%;
+}
+.cards {
+    margin: 70px 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.card-1, .card-2, .card-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 1px 2px 3px 1px hsl(208, 11%, 55%);
+    margin: 43px 0;
+}
+.card-content {
+    width: 50%;
+    margin-right: 30px;
+}
+.card-img {
+    width: 50%;
+    margin-left: 30px;
+}
+.cards img {
+    max-width: 100%;
+}
+.card-heading {
+    margin-bottom: 33px;
+}
+.floater-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.float-head {
+    margin-bottom: 30px;
+}
+.float-button {
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
+    border-radius: 16px;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.float-button button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+    width: 100%;
+}
+footer {
+    background-color: hsl(192, 100%, 9%);
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.footer-1 .logo {
+    margin: 26px;
+}
+.footer-1 p {
+    margin: 8px 0;
+}
+.footer-1, .footer-2, .footer-3, .footer-4 {
+    width: 25%;
+}
+footer a {
+    text-decoration: none;
+}
+.footer-2, .footer-3 {
+    display: flex;
+    flex-direction: column;
+}
+.footer-4 p {
+    margin-top: 270px;
+    margin-bottom: 50px;
+}
