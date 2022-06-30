@@ -160,14 +160,15 @@ footer {
 .footer-1 .logo {
     margin: 26px;
 }
-.footer-1 p {
-    margin: 12px 0;
-}
+/*.footer-1 p {
+    margin-left: 20px;
+}*/
 .footer-1 svg {
     margin-right: 40px;
 }
-.footer-1 .email, .phone {
-    display: flex;
+.footer-1 .email, .phone, .location {
+    display: inline-flex;
+    margin: 12px 0;
     
 }
 .footer-1 {
