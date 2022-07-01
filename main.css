@@ -29,7 +29,7 @@ body {
 .header-button {
     background-color: white;
     box-shadow: 0 0px 7px 1px lightgrey;
-    border-radius: 16px;
+    border-radius: 26px;
     text-align: center;
 }
 .header-button button {
@@ -65,8 +65,8 @@ body {
 }
 .intro-button {
     background-color: hsl(322, 100%, 66%);
-    box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
-    border-radius: 16px;
+    box-shadow: 0.5px 0.5px 4px 2px lightgrey;
+    border-radius: 26px;
     text-align: center;
     width: 36%;
 }
@@ -164,9 +164,6 @@ footer {
 .footer-1 .logo {
     margin: 26px 0;
 }
-/*.footer-1 p {
-    margin-left: 20px;
-}*/
 .footer-1 svg, img {
     margin-right: 40px;
 }
