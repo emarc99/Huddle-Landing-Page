@@ -28,18 +28,20 @@ body {
 }
 .header-button {
     background-color: white;
-    box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
+    box-shadow: 0 0px 7px 1px lightgrey;
     border-radius: 16px;
     text-align: center;
 }
 .header-button button {
     background-color: transparent;
     border: none;
-    color: hsl(192, 100%, 9%);
     font-weight: 500;
     height: 40px;
-    padding: 11px 35px;
+    padding: 13px 35px;
     cursor: pointer;
+}.header-button button a {
+    text-decoration: none;
+    color: hsl(192, 100%, 9%);
 }
 .intro-section {
     display: flex;
@@ -117,7 +119,7 @@ body {
 }
 .floater-card {
     position: absolute;
-    bottom: 620px;
+    bottom: 500px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -152,7 +154,7 @@ footer {
     background-color: hsl(192, 100%, 9%);
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,25 +162,30 @@ footer {
     position: relative;
 }
 .footer-1 .logo {
-    margin: 26px;
+    margin: 26px 0;
 }
 /*.footer-1 p {
     margin-left: 20px;
 }*/
-.footer-1 svg {
+.footer-1 svg, img {
     margin-right: 40px;
 }
+.footer-1 img {
+    margin-top: 15px;
+    align-self: flex-start;
+}
 .footer-1 .email, .phone, .location {
-    display: inline-flex;
-    margin: 12px 0;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
     
 }
 .footer-1 {
-    width: 40%;
+    width: 35%;
 }
 .footer-4 {
-    width: 30%;
-    padding: 50px;
+    width: 25%;
+    padding-top: 60px;
 }
 footer a {
     text-decoration: none;
@@ -188,16 +195,23 @@ footer a {
     display: flex;
     flex-direction: column;
     width: 20%;
-    
+    padding-top: 79px;
+    padding-left: 50px;
 }
 .footer-2 {
-    margin-left: 70px;
+    margin-left: 40px;
+}
+.footer-2 a {
+    margin-bottom: 30px;
+}
+.footer-3 a {
+    margin-bottom: 30px;
 }
 .footer-4 p {
     margin-bottom: 50px;
 }
 .footer-4 .social {
-    margin-top: 180px;
+    margin-top: 160px;
     margin-bottom: 180px;
 }
 .footer-4 .ionicon {
