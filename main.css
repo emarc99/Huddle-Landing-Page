@@ -117,6 +117,9 @@ body {
     font-weight: 700;
     color: hsl(192, 100%, 9%);
 }
+.card-text {
+    color: hsl(208, 11%, 55%);
+}
 .floater-card {
     position: absolute;
     bottom: 500px;
