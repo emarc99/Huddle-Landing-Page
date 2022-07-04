@@ -12,50 +12,58 @@ body {
 .main {
     background-image: url('images/bg-hero-mobile.svg');
     background-color: hsl(193, 100%, 96%);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 30px;
-    height: 100vh;
 }
 .header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-
+    margin-bottom: 100px;
+}
+.logo img {
+    width: 50%;
 }
 .header-button {
     background-color: white;
     box-shadow: 0 0px 7px 1px lightgrey;
-    border-radius: 26px;
-    text-align: center;
+    border-radius: 16px;
+    padding: 3px 9px;
+    width: 40%;
 }
 .header-button button {
     background-color: transparent;
     border: none;
-    font-weight: 500;
-    height: 40px;
-    padding: 13px 35px;
+    font-weight: bolder;
     cursor: pointer;
-}.header-button button a {
+    width: 100%;
+}
+.header-button button a {
     text-decoration: none;
     color: hsl(192, 100%, 9%);
 }
 .intro-section {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80%;
+    text-align: center;
+    padding: 0 20px 40px 20px;
 }
 .intro-content {
-    width: 50%;
-    margin-right: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 .intro-heading {
-    margin-bottom:  33px;
+    margin-bottom:  20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: hsl(192, 100%, 9%);
@@ -68,7 +76,7 @@ body {
     box-shadow: 0.5px 0.5px 4px 2px lightgrey;
     border-radius: 26px;
     text-align: center;
-    width: 36%;
+    width: 75%;
 }
 .intro-button button {
     background-color: transparent;
@@ -79,16 +87,15 @@ body {
     width: 100%;
 }
 .mockups {
-    width: 50%;
-    margin-left: 30px;
+    width: 100%;
 }
 .mockups img {
     max-width: 100%;
 }
 .cards {
     margin: 70px 0;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 200px;
 }
 .card-1, .card-2, .card-3 {
