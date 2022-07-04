@@ -16,7 +16,6 @@ body {
     padding-right: 50px;
     padding-top: 30px;
     height: 100vh;
-
 }
 .header {
     width: 100%;
@@ -45,6 +44,7 @@ body {
 }
 .intro-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -93,6 +93,7 @@ body {
 }
 .card-1, .card-2, .card-3 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
@@ -159,9 +160,10 @@ footer {
     padding-right: 50px;
     padding-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: azure;
     position: relative;
 }
 .footer-1 .logo {
@@ -189,7 +191,10 @@ footer {
 }
 footer a {
     text-decoration: none;
-    color: white;
+    color: azure;
+}
+.underline:hover, .underline:focus {
+    text-decoration: underline;
 }
 .footer-2, .footer-3 {
     display: flex;
@@ -217,4 +222,11 @@ footer a {
 .footer-4 .ionicon {
     fill: azure;
     width: 25px;
+}
+.ionicon:hover {
+    fill: hsl(322, 100%, 66%);
+}
+.glow-button:hover {
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition-delay: 0s;
 }

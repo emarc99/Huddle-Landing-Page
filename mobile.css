@@ -27,23 +27,25 @@ body {
 }
 .header-button {
     background-color: white;
-    box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
-    border-radius: 16px;
+    box-shadow: 0 0px 7px 1px lightgrey;
+    border-radius: 26px;
     text-align: center;
 }
 .header-button button {
     background-color: transparent;
     border: none;
-    color: hsl(192, 100%, 9%);
     font-weight: 500;
     height: 40px;
-    padding: 11px 35px;
+    padding: 13px 35px;
     cursor: pointer;
+}.header-button button a {
+    text-decoration: none;
+    color: hsl(192, 100%, 9%);
 }
 .intro-section {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 80%;
@@ -63,8 +65,8 @@ body {
 }
 .intro-button {
     background-color: hsl(322, 100%, 66%);
-    box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
-    border-radius: 16px;
+    box-shadow: 0.5px 0.5px 4px 2px lightgrey;
+    border-radius: 26px;
     text-align: center;
     width: 36%;
 }
@@ -91,12 +93,14 @@ body {
 }
 .card-1, .card-2, .card-3 {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     padding: 20px 50px;
-    box-shadow: 1px 2px 3px 1px hsl(208, 11%, 55%);
+    box-shadow: 1px 1px 7px 2px lightgray;
     margin: 43px 0;
+    border-radius: 13px;
 }
 .card-content {
     width: 50%;
@@ -115,16 +119,20 @@ body {
     font-weight: 700;
     color: hsl(192, 100%, 9%);
 }
+.card-text {
+    color: hsl(208, 11%, 55%);
+}
 .floater-card {
     position: absolute;
-    bottom: 720px;
+    bottom: 500px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 70px;
-    box-shadow: 1px 2px 3px 1px hsl(208, 11%, 55%);
+    border-radius: 13px;
+    box-shadow: 0px 0px 2px 1px lightgrey;
 }
 .float-head {
     margin-bottom: 20px;
@@ -134,7 +142,7 @@ body {
 }
 .float-button {
     background-color: hsl(322, 100%, 66%);
-    box-shadow: 0 1px 1px 1px hsl(154, 78%, 36%);
+    box-shadow: 0.5px 0.5px 4px 2px lightgrey;
     border-radius: 29px;
     text-align: center;
     width: 80%;
@@ -151,50 +159,76 @@ footer {
     background-color: hsl(192, 100%, 9%);
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 200px;
-    display: flex;
+    padding-top: 50px;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: azure;
     position: relative;
-    
-    
 }
 .footer-1 .logo {
-    margin: 26px;
+    margin: 26px 0;
 }
-.footer-1 p {
-    margin: 12px 0;
+.footer-1 svg, img {
+    margin-right: 40px;
+}
+.footer-1 img {
+    margin-top: 15px;
+    align-self: flex-start;
+}
+.footer-1 .email, .phone, .location {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    
 }
 .footer-1 {
-    width: 40%;
+    width: 35%;
 }
 .footer-4 {
-    width: 30%;
-    padding: 50px;
+    width: 25%;
+    padding-top: 60px;
 }
 footer a {
     text-decoration: none;
-    color: white;
+    color: azure;
+}
+.underline:hover, .underline:focus {
+    text-decoration: underline;
 }
 .footer-2, .footer-3 {
     display: flex;
     flex-direction: column;
     width: 20%;
-    
+    padding-top: 79px;
+    padding-left: 50px;
 }
 .footer-2 {
-    margin-left: 70px;
+    margin-left: 40px;
+}
+.footer-2 a {
+    margin-bottom: 30px;
+}
+.footer-3 a {
+    margin-bottom: 30px;
 }
 .footer-4 p {
     margin-bottom: 50px;
 }
 .footer-4 .social {
-    margin-top: 180px;
+    margin-top: 160px;
     margin-bottom: 180px;
 }
 .footer-4 .ionicon {
     fill: azure;
     width: 25px;
+}
+.ionicon:hover {
+    fill: hsl(322, 100%, 66%);
+}
+.glow-button:hover {
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition-delay: 0s;
 }
