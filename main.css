@@ -28,17 +28,17 @@ body {
 .header-button {
     background-color: white;
     box-shadow: 0 0px 7px 1px lightgrey;
-    border-radius: 26px;
+    border-radius: 30px;
     text-align: center;
 }
 .header-button button {
     background-color: transparent;
     border: none;
     font-weight: 500;
-    height: 40px;
-    padding: 13px 35px;
+    padding: 12px 40px;
     cursor: pointer;
-}.header-button button a {
+}
+.header-button button a {
     text-decoration: none;
     color: hsl(192, 100%, 9%);
 }
@@ -130,7 +130,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 70px;
-    border-radius: 13px;
+    border-radius: 10px;
     box-shadow: 0px 0px 2px 1px lightgrey;
 }
 .float-head {
@@ -156,9 +156,7 @@ body {
 }
 footer {
     background-color: hsl(192, 100%, 9%);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
+    padding: 50px;
     display: flex;
     width: 100%;
     align-items: center;
@@ -188,6 +186,7 @@ footer {
 .footer-4 {
     width: 25%;
     padding-top: 60px;
+    padding-left: 20px;
 }
 footer a {
     text-decoration: none;
@@ -203,9 +202,6 @@ footer a {
     padding-top: 79px;
     padding-left: 50px;
 }
-.footer-2 {
-    margin-left: 40px;
-}
 .footer-2 a {
     margin-bottom: 30px;
 }
@@ -213,7 +209,6 @@ footer a {
     margin-bottom: 30px;
 }
 .footer-4 p {
-    margin-bottom: 50px;
     font-size: 12px;
 }
 .footer-4 .social {
