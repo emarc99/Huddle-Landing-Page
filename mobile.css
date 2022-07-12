@@ -144,7 +144,7 @@ body {
 }
 .floater-card {
     position: absolute;
-    width: 92%;
+    width: 90%;
     bottom: 820px;
     background-color: white;
     display: flex;
